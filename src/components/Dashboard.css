@@ -1,0 +1,48 @@
+.container {
+    padding-top: 50px;
+  }
+  
+  .dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-heading {
+    color: #007bff; /* Blue color */
+  }
+  
+  .section-heading {
+    color: #28a745; /* Green color */
+    margin-top: 30px;
+  }
+  
+  .personal-details,
+  .education-details {
+    margin-top: 20px;
+  }
+  
+  .degree-details,
+  .twelfth-details,
+  .tenth-details {
+    margin-bottom: 20px;
+  }
+  
+  .print-btn {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .address-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .correspondence-address {
+    margin-left: auto;
+  }
+  

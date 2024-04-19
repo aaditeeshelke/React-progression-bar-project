@@ -1,0 +1,41 @@
+/* PersonalDetailsForm.css */
+.page {
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+}
+.form-container {
+    margin-top: 50px;
+    width: 588px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-left: 23px;
+    margin-top: 21px;
+
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .photo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .preview-img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+  }
+  

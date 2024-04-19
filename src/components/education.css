@@ -1,0 +1,75 @@
+/* education.css */
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section styling */
+.education-section {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.education-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue color for the title */
+  border-bottom: 2px solid #007bff; /* Underline effect */
+  padding-bottom: 10px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+  display: inline-block; /* Display form groups inline */
+  width: 48%; /* Set width for each form group */
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555; /* Dark gray color for labels */
+}
+
+/* Input styling */
+.form-group input {
+  width: calc(100% - 10px); /* Adjust for padding */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff; /* Highlight border color on focus */
+}
+
+/* Button styling */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 11px 42px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background-color 0.3s ease;
+  margin-right: 57px;
+  margin-left: 46px;
+  margin-bottom: 22px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
